@@ -1,1 +1,37 @@
 # Landing-Page
+
+### first impression
+
+    4 flex + 1 header + 1 footer
+        header -> header logo + 3 links
+
+    ## selector cheat sheet    
+    _layout
+        _header
+            _logo
+            _right-link
+
+
+        _frontpage
+            3 elements
+            image
+
+        _gallery
+            _storyboard
+                title
+                _container
+                    _subtext
+    
+        _inspirational
+            _quote
+            _quoted
+
+        _eye-popper
+            _table
+                header
+                text
+
+            button
+
+        _footer
+            text
