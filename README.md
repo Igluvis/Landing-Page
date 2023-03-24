@@ -30,9 +30,9 @@
             _quoted
 
         _eye-popper
-            _table
+            _description
                 _bold-text
-                text
+                text    
 
             _button
 

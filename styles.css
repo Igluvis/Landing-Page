@@ -7,32 +7,27 @@
     background-color: #1F2937;
 }
 
-.humangous, .logo, a, .gallery--header, .button, .quoted{
-font-weight: 900;
+.humangous, .logo, a, .gallery--header, .button, .quoted, .bold-text {
+    font-weight: 900;
 }
 
 .humangous {
     font-size: 48px;
-    color: #f9faf8;
 }
 
 .filler-text {
     color: #e5e7eb;
 }
 
-.filler-text, .subtext {
+.filler-text, .subtext, a {
     font-size: 18px;
 }
 
-.logo {
+.logo, .bold-text {
     font-size: 24px;
 }
 
-a {
-    font-size: 18px;
-}
-
-.logo, a {
+.logo, a, .white, .humangous, .footer {
     color: #f9faf8;
 }
 
@@ -55,7 +50,7 @@ a {
 
 /*box*/
 
-.layout, .header, .logo, .right-link, .frontpage, .page, .storyboard, .container {
+.layout, .header, .logo, .right-link, .frontpage, .page, .storyboard, .container, .eye-popper {
     display: flex;
 }
 
@@ -89,9 +84,14 @@ a {
     aspect-ratio: 18/9;
 }
 
-.header {
+.header, .eye-popper, .footer {
     justify-content: space-between;
     padding: 2em 6em;
+}
+
+.eye-popper {
+    margin: 4em 3em;
+    border-radius: 15px;
 }
 
 .right-link a {
@@ -111,8 +111,14 @@ a {
     margin: 5px 0;
 }
 
-.gallery {
+.eye-popper .button {
+    border: 2px solid #e5e7eb
+}
+
+.gallery, .footer{
     text-align: center;
+}
+.gallery {
     padding: 0 4.5em;
     padding-bottom: 6em;
 }
