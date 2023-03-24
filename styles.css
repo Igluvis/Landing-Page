@@ -1,0 +1,140 @@
+/*color and font styles*/
+* {
+    margin: 0;
+}
+
+.header, .footer, .frontpage {
+    background-color: #1F2937;
+}
+
+.humangous, .logo, a, .gallery--header, .button, .quoted{
+font-weight: 900;
+}
+
+.humangous {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.filler-text {
+    color: #e5e7eb;
+}
+
+.filler-text, .subtext {
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+a {
+    font-size: 18px;
+}
+
+.logo, a {
+    color: #f9faf8;
+}
+
+.button, .eye-popper {
+    background-color: #3882f6;
+}
+
+.gallery, .inspirational {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.inspirational {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-style: italic;
+}
+
+/*box*/
+
+.layout, .header, .logo, .right-link, .frontpage, .page, .storyboard, .container {
+    display: flex;
+}
+
+.layout, .page, .container {
+    flex-direction: column;
+}
+
+.frontpage {
+    padding: 5em 7em;
+    gap: 3em;
+}
+
+.page, .container {
+    gap: 0.3em;
+}
+
+.storyboard {
+    gap: 0.5em;
+}
+
+.frontpage img, .page, .container {
+    flex: 1 1 50%;
+}
+
+.container {
+    width: 15%;
+}
+
+.frontpage img {
+    width: 30%;
+    aspect-ratio: 18/9;
+}
+
+.header {
+    justify-content: space-between;
+    padding: 2em 6em;
+}
+
+.right-link a {
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    color: #e5e7eb;
+    border: none;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.gallery {
+    text-align: center;
+    padding: 0 4.5em;
+    padding-bottom: 6em;
+}
+
+.gallery--header {
+    padding: 1.5em;
+}
+
+.storyboard, .frontpage {
+    justify-content: space-evenly;
+}
+
+.container img {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.inspirational {
+    justify-content: center;
+    padding: 4em;
+}
+
+.quoted {
+    text-align: right;
+}

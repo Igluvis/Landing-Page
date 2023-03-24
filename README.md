@@ -7,18 +7,21 @@
 
     ## selector cheat sheet    
     _layout
-        _header
+        _header_fx
             _logo
             _right-link
 
 
         _frontpage
-            3 elements
-            image
+            _page
+                _humangous
+                _filler-text
+                _button
+            _image-container
 
         _gallery
+            title
             _storyboard
-                title
                 _container
                     _subtext
     
@@ -28,10 +31,10 @@
 
         _eye-popper
             _table
-                header
+                _bold-text
                 text
 
-            button
+            _button
 
         _footer
             text
